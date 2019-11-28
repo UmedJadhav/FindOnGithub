@@ -11,6 +11,7 @@ UIsearchUser.addEventListener('keyup',(e)=>{
                     ui.showAlert('User not Found','alert alert-danger');
                 }else{
                     ui.showProfile(data.profile);
+                    ui.showRepos(data.repos);
                 }
             });
     }else{
